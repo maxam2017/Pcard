@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+    <title>Pcard</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="rwd-l.css">
+    <link rel="stylesheet" href="rwd-s.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo-container">
+            <img src="./logo.png" width="85%">
+        </div>
+        <div id="search">
+            <input type="text" placeholder="搜尋文章" id="search_box">
+            <img src="icon/search.svg" alt="" id="search_icon">
+        </div>
+        <div id="ham">
+            <div id="rect1"></div>
+            <div id="rect2"></div>
+            <div id="rect3"></div>
+        </div>
+    </header>
+    <nav>
+        <ul id="nav">
+            <li id="pop"><a href="#">熱門文章</a></li>
+            <li id="latest"><a href="#">最新文章</a></li>
+            <li id="cat_tag"><a href="#">分類看板</a></li>
+            <div id="cat_scroll">
+            </div>
+            <li id="sch_tag"><a href="#">校園看板</a></li>
+            <div id="sch_scroll">
+            </div>
+        </ul>
+    </nav>
+    <div id="container">
+        <div id="result"></div>
+    </div>
+    <div id="top"><img src="icon/top.svg"></div>
+    <footer>Copyright &copy; 2017 MAXAM - all rights reserved -</footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
