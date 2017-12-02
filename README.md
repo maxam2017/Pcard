@@ -1,4 +1,4 @@
 # pcard 
 using AJAX access to Dcard API
 
-this website is published at http://github.maxxam.me/pcard/
+this website is published at https://maxam2017.github.io/pcard
